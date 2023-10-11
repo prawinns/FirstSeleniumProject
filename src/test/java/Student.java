@@ -25,7 +25,7 @@ class DemoLombok {
     public static void main(String[] args) {
        Student s = new Student();
        Student s1 = Student.builder().name("Adnan").rollNumber(101).build();
-
+        Student s2 = new Student();
 
     }
 }
